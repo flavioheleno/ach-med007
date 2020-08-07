@@ -5,11 +5,11 @@
 
 //STATE MACHINE STAGES
 typedef enum {
-	FETCH,
-	DECODE,
-	EXECUTE,
-	RESET,
-	HALT
+  FETCH,
+  DECODE,
+  EXECUTE,
+  RESET,
+  HALT
 } enStage;
 
 

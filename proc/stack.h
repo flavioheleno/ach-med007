@@ -5,8 +5,8 @@
 #include <stdint.h>
 
 typedef struct stk {
-	uint16_t data;
-	struct stk *next;
+  uint16_t data;
+  struct stk *next;
 } stack;
 
 int stackIsEmpty(stack *s);
